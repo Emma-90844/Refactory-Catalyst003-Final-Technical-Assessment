@@ -1,4 +1,22 @@
 h2{
     background-color: #542a54;
     color: white;
+    
+}
+p{
+    color: #542a52;
+    font-size: 20px;
+}
+#gender_box{
+    border: 1px solid #542a52;
+    padding: 7px;
+    padding-right: 6px;
+    border-radius: 5px;
+    width: 1115px;
+}
+input{
+    border: 1px solid #542a52;
+}
+.form-control{
+    border: 1px solid #542a52;
 }

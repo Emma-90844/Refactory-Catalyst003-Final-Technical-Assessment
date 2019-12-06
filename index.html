@@ -11,12 +11,14 @@
 <body>
 <!-- A full section for the form -->
     <section>
-        <div class="container text-center">
+        <div class="container mt-5 ">
             <div class="row" >
                 
                 <div class="col-md-12">
-                 <h2>Students Detail Entry</h2>
+                 <h2 class="text-center p-3">Students Detail Entry</h2>
+                 <p>Note all fields marked with red are required</p>
                  <div class="row">
+                     <!-- first row of surname and given name -->
                     <div class="col-md-6">
                         <label for="">Surname</label>
                         <input type="text" class="form-control">
@@ -26,6 +28,79 @@
                         <label for="">Given name</label>
                         <input type="text" class="form-control">
                     </div>
+
+                    <!-- Gender -->
+                    <div class="col-md-12 mt-5">
+                        <label for="">Gender</label>
+                        <div class="d-flex " id="gender_box">
+                           
+                            <div class="col-md-2">
+                            <input type="radio" name="gender" value="male" checked> Male<br>
+                            </div>
+                            <div class="col-md-3">
+                            <input type="radio" name="gender" value="male" checked> Female<br>
+                            </div>                       
+                        </div>
+
+                    </div>
+
+                    <!-- Date of birth  -->
+                    <div class="col-md-12 mt-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                    <label for="">Date of Birth</label>
+                                    <input type="date" class="form-control">
+                
+                            </div>
+
+                            <!-- Country Select -->
+                            <div class="col-md-6 ">
+                            <label for="">Country</label>
+                                <select name="" id="" class="form-control">
+                                    <option value="" style="display: none;">......Select Country......</option>
+                                    <option value="">Uganda</option>
+                                    <option value="">Rwanda</option>
+                                    <option value="">Kenya</option>
+                                </select>
+                            </div>
+                        </div>                   
+                    </div>
+
+
+                     <!-- Place of residence -->
+                     <div class="col-md-12 mt-5">
+                            <div class="row">
+                                <div class="col-md-6">
+                                        <label for="">Place of Residence </label>
+                                        <input type="text" class="form-control">
+                    
+                                </div>
+    
+                                <!-- Phone number-->
+                                <div class="col-md-6 ">
+                                <label for="">Phone number</label>
+                                <input type="number" class="form-control">
+                                </div>
+                            </div>                   
+                        </div>
+
+
+                     <!-- Email -->
+                    <div class="col-md-12 mt-5">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control">
+  
+                        </div>
+    
+
+
+
+
+
+
+
+
+
 
                 </div>
 
